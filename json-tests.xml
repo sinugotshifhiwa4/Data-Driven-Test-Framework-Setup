@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2"
+          name=" Json Data Reader Suite">
+
+        <groups>
+            <run>
+                <include name="json-loader"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.data.driven.tests.JsonBooleanReaderTest"/>
+            <class name="com.data.driven.tests.JsonIntegerReaderTest"/>
+            <class name="com.data.driven.tests.JsonStringReaderTest"/>
+        </classes>
+    </test>
+</suite>

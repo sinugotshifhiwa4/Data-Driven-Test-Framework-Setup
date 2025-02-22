@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2"
+          name=" Excel Data Reader Suite">
+
+        <groups>
+            <run>
+                <include name="excel-loader"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.data.driven.tests.ExcelBookingDataTest"/>
+            <class name="com.data.driven.tests.ExcelIntegerReaderTest"/>
+            <class name="com.data.driven.tests.ExcelStringReaderTest"/>
+        </classes>
+    </test>
+</suite>

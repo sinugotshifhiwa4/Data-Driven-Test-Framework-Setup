@@ -1,0 +1,113 @@
+{
+  "Locations": [
+    "Sydney",
+    "Melbourne",
+    "Brisbane",
+    "Adelaide",
+    "London",
+    "New York",
+    "Los Angeles",
+    "Paris"
+  ],
+  "Hotels": [
+    "Hotel Creek",
+    "Hotel Sunshine",
+    "Hotel Hervey",
+    "Hotel Cornice"
+  ],
+  "RoomTypes": [
+    "Standard",
+    "Double",
+    "Deluxe",
+    "Super Deluxe"
+  ],
+  "NumberOfRooms": [
+    "1 - One",
+    "2 - Two",
+    "3 - Three",
+    "4 - Four",
+    "5 - Five",
+    "6 - Six",
+    "7 - Seven",
+    "8 - Eight",
+    "9 - Nine",
+    "10 - Ten"
+  ],
+  "AdultsPerRoom": [
+    "1 - One",
+    "2 - Two",
+    "3 - Three",
+    "4 - Four"
+  ],
+  "ChildrenPerRoom": [
+    "0 - None",
+    "1 - One",
+    "2 - Two",
+    "3 - Three",
+    "4 - Four"
+  ],
+  "FirstName": [
+    "Donald",
+    "Erna",
+    "George",
+    "Hallie"
+  ],
+  "LastName": [
+    "Adams",
+    "Barton",
+    "Carter",
+    "Dixon"
+  ],
+  "BillingAddress": [
+    "83 Rivonia Rd, Sandhurst, Sandton, 2196",
+    "203 Oxford Rd, Dunkeld, Randburg, 2196",
+    "Vodacom Blvd, Noordwyk, Midrand, 1687",
+    "Oak Ave, Ferndale, Randburg, 2194"
+  ],
+  "CreditCardNumber": [
+    "4263982640269299",
+    "4347699988887777",
+    "5011054488597827",
+    "6034932528973614"
+  ],
+  "CreditCardType": [
+    "American Express",
+    "VISA",
+    "Master Card",
+    "Other"
+  ],
+  "ExpiryMonth": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "ExpiryYear": [
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "CvvNumber": [
+    775,
+    123,
+    369,
+    258,
+    147,
+    789
+  ],
+  "Deposit": [
+    true,
+    false
+  ]
+}

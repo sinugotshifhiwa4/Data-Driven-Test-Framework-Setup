@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "Locations": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "Hotels": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "RoomTypes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "NumberOfRooms": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "AdultsPerRoom": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "ChildrenPerRoom": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "FirstName": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "LastName": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "BillingAddress": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "CreditCardNumber": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9]{16}$"
+      },
+      "minItems": 1
+    },
+    "CreditCardType": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["American Express", "VISA", "Master Card", "Other"]
+      },
+      "minItems": 1
+    },
+    "ExpiryMonth": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"
+        ]
+      },
+      "minItems": 1
+    },
+    "ExpiryYear": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 2025,
+        "maximum": 2100
+      },
+      "minItems": 1
+    },
+    "CvvNumber": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 100,
+        "maximum": 999
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "Locations", "Hotels", "RoomTypes", "NumberOfRooms", "AdultsPerRoom",
+    "ChildrenPerRoom", "FirstName", "LastName", "BillingAddress",
+    "CreditCardNumber", "CreditCardType", "ExpiryMonth", "ExpiryYear", "CvvNumber"
+  ]
+}
