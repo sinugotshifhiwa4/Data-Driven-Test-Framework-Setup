@@ -213,8 +213,7 @@ Example JSON Schema:
 
 ### Excel Configuration
 
-- Place Excel files in `src/test/resources/testData`
-- Configure the file paths in `test.properties`
+- Place Excel files in `src/test/resources/testData/excel`
 - Ensure column headers match the expected data keys
 
 ## Error Handling
